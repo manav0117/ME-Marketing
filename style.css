@@ -70,7 +70,7 @@ section{
 .home .content h2{
     font-size: 5rem;
 }
-.home .content .pars p{
+.home .content  p{
     font-size: 3rem;
 }
 .home .content .home-btn{
@@ -247,7 +247,8 @@ margin-top: 5rem;
  font-size: 3rem;
 }
 .footer .icons i :hover{
-background-color: #FF5771;
+    color:#eee;
+    background-color: #FF5771   ;
 }
 .us{
     text-align: center;
@@ -261,7 +262,7 @@ background-color: #FF5771;
 @media(max-width:1130px)
 {
     .home{
-        background: url('/home6.jpeg');
+        background: url(/home6.jpeg);
         background-position: center;
         min-height: 100vh;
         background-size: cover;
