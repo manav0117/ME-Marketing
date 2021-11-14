@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ME Marketing</title>
+
+    <link rel="stylesheet" href="style.css">
+      <!--Font Awsome-->
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" 
+    />
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">ME Marketing</a>
+        <div class="fas fa-bars" id="menu"></div>
+        <nav class="navbar">
+            <a href="">Home</a>
+            <a href="">Offers</a>
+            <a href="">Companies</a>
+            <a href="">Contact us</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="content">
+            <h2>Professional marketing copy for anyone</h2>
+            <div class="pars" style="display: flex; margin-top: 5rem;">
+                <img src="/bitmoji2.jpeg"  height="100rem" alt="" style="margin-right: 10rem;">
+                <p>We blend insights and strategy to create digital products for forward-thinking organisations. </p>
+            </div>
+            <a href="" class="home-btn">Explore Now</a>
+        </div>
+        <div class="images">
+            <img src="home-img.png" alt="" class="home-img">
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="service-content">
+        <h3>OUR SERVICES</h3>
+        <h1>We're digital marketing pro
+        </h1>
+        <p>No matter what you are looking for,we can create a custom solution for your buisness</p>
+    </div>   
+    <div class="row">
+        <div class="box">
+            <i class="fas fa-envelope" style="color: #FF5771;"></i>
+            <div class="box-content">
+                <h2>Email Marketing</h2>
+                <p>Nurture valuable leads into customers,and turn on one time. </p>
+            </div>
+
+        </div>
+        <div class="box">
+            <i class="fas fa-book"style="color:yellow;"></i>
+            <div class="box-content">
+                <h2>High Standards</h2>
+                <p>Build brand awarness on the top social media networks. </p>
+            </div>
+
+        </div>
+        <div class="box">
+            <i class="fas fa-user-secret"></i>
+            <div class="box-content">
+                <h2>Email Marketing</h2>
+                <p>Maintaining and respecting your privacy.  </p>
+            </div>
+
+        </div>
+    </div>
+    </section>
+    <h1 style="text-align: center; background-color: #F5F5F5; font-size: 3rem; text-decoration: underline;  ">About us</h1>
+    <section class="about" id="about">
+
+        <div class="image">
+            <img src="ab1.jpg" alt="">
+        </div>
+        <div class="ab-content">
+        <h3>Why choose us?</h3>
+        <p>We present you a proposal and discuss nitty-gritty like workflows,communication protocols apart from engagement models,pricing,biling and involcing</p>
+    </div>
+    </section>
+    <section class="about2" id="about2">
+
+        <div class="image">
+            <img src="ab2.jpg" alt="">
+        </div>
+        <div class="ab-content">
+        <h3>What we do ?</h3>
+        <p> refers to any actions a company takes to attract an audience to the company's product or services through high-quality messaging. Marketing aims to deliver standalone value for prospects and consumers through content, with the long-term goal of demonstrating product value, strengthening brand loyalty, and ultimately increasing sales.</p>
+    </div>
+    </section>
+     <!-- Swiper -->
+     <h1 style="text-align: center; background-color: #F5F5F5; font-size: 3rem; text-decoration: underline;">Companies</h1>
+     <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="hrw.jpeg" alt=""></div>
+          <div class="swiper-slide"><img src="sbc.jpeg" alt=""></div>
+          <div class="swiper-slide"><img src="5.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="1.jpg" alt=""></div>
+       
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+        <!--Footer section-->
+    <section class="footer">
+        <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-google"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-youtube"></i>
+        </div>
+       </section>
+       <section class="us">
+        <div class="fas fa-copyright"> 2021 ME Developers</div>
+       </section>
+    <script src="script.js"></script>
+      <!-- Swiper JS -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          cssMode: true,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+          mousewheel: true,
+          keyboard: true,
+        });
+      </script> 
+</body>
+</html>

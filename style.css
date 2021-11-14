@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+    transition: all .2s linear;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+header{
+    position:fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2rem 7%;
+    background-color: #272D3B;
+}
+header .logo{
+font-size: 3rem;
+text-decoration: none;
+color: #fff;
+font-weight: bolder;
+}
+header #menu{
+    font-size: 3rem;
+    cursor: pointer;
+    display: none;
+    color: #eee;
+}
+.navbar a{
+    font-size: 2rem;
+    color:#eee  ;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 2rem;
+}
+.navbar a:hover{
+    color:#272D3B;
+    background-color: #FF5771;
+    border: .1rem solid black;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+section{
+    padding: 2rem 7%;
+}
+.home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    margin-top: 100px;
+    gap:2rem;
+    position: relative;
+    overflow: hidden;
+    background-color:#f5f5fa;
+}
+.home .content{
+    flex:  1 1 41rem;
+}
+.home .content h2{
+    font-size: 5rem;
+}
+.home .content .pars p{
+    font-size: 3rem;
+}
+.home .content .home-btn{
+    color: #fff;
+    background-color:#01005C;
+    position: relative;
+    top:4rem;
+    font-size: 2rem;
+    border-radius: 25px;
+    padding:1.7rem;
+    text-decoration: none;
+}
+.home .content .home-btn:hover{
+    color:#fff;
+    background-color: #FF5771;
+}
+.services{
+    background-color: #f5f5fa;
+}
+.service-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 2rem;
+}
+.service-content h3{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.service-content h1{
+    font-size: 4rem;
+    margin-top: 1rem;
+}
+.service-content p{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-decoration: underline;
+}
+.services .row{
+display: flex;
+flex-wrap: wrap;
+flex: 1 1 33rem;
+align-items: center;
+justify-content: center;
+margin-top: 5rem;
+}
+.services .row .box{
+    box-shadow: 0 .5rem 1rem  rgba(0,0,0,.1);
+    background-color: #fff;
+    margin: 3rem;
+    height: 19rem;
+    border-radius: 25px;
+    width: 20rem;
+  
+}
+.services .row .box i{
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 13rem;
+    position: relative;
+    top:15%;
+}
+.services .row .box .box-content{
+    text-align: center;
+    margin-top: 4rem;
+}
+.services .row .box .box-content h2{
+    font-size: 2rem;
+}
+.services .row .box .box-content p{
+    font-size: 1rem;
+    margin:1rem;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:#f5f5fa;
+}
+.about .image{
+    flex: 1 1 40rem;
+    margin-top: 2rem;
+}
+.about .image img{
+    width: 100%;
+    height:50vh    ;
+}
+.about .ab-content{
+    flex: 1 1 40rem;
+
+}
+.about .ab-content  h3{
+    font-size: 3rem;
+    margin: 2rem;
+}
+.ab-content p{
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+.about2{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:#f5f5fa;
+}
+.about2 .image{
+    flex: 1 1 40rem;
+}
+.about2 .image img{
+    width: 100%;
+    height:50vh    ;
+}
+.about2 .ab-content{
+    flex: 1 1 40rem;
+
+}
+.about2 .ab-content  h3{
+    font-size: 3rem;
+    margin: 2rem;
+}
+.ab-content p{
+    font-size: 2rem;
+    margin: 2rem;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+    background-color:#f5f5fa;
+    margin: 3rem;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+  }
+  /*footer*/
+.footer{
+    text-align: center;
+    background-color: black;
+    color: #eee;
+    opacity: .87;
+    margin-top: 5rem;
+}
+.footer .icons i 
+ {
+ padding:.8rem;
+ font-size: 3rem;
+}
+.footer .icons i :hover{
+background-color: #FF5771;
+}
+.us{
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+}
+.us >div{
+    font-size:1.6rem;
+}
+@media(max-width:1130px)
+{
+    .home{
+        background: url('/home6.jpeg');
+        background-position: center;
+        min-height: 100vh;
+        background-size: cover;
+       
+    }
+    .home .images
+    {
+        display: none;
+    }
+    .home .content h2{
+        color:black;
+
+    }
+    .home .pars p{
+        color:black;
+    }
+}
+
+
+@media(max-width:991px)
+{
+    html{
+        font-size: 55%;
+    }
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+    
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+    
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+    
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height:65vh;
+        object-fit: cover;
+      }
+}
+@media (max-width:881px) {
+
+    header #menu{
+        display: block;
+    }
+    header .navbar{
+        position: absolute;
+        top:100%;
+        left:0;
+        right: 0;
+        z-index: 1001;
+        border-top: .1rem solid black;
+        clip-path: polygon(0 0 ,100% 0,0 0);
+        background-color: #272D3B;
+    }
+    header .nav-toggle{
+        clip-path: polygon(0 0 ,100% 0,100% 100%,0 100%);
+    }
+    .navbar a{
+        display: block;
+        margin-top: 2rem;
+        transition: all 2s linear;
+        
+        color: #fff;
+    }
+    .fa-times{
+        transform: rotate(180deg);
+    }
+  
+    
+}
